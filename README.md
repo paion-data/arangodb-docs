@@ -3,8 +3,8 @@
 [![GitHub workflow status badge][GitHub workflow status badge]][GitHub workflow status URL]
 [![Apache License][Apache License Badge]][Apache License, Version 2.0]
 
-This repository contains QubitPi's study notes as well as the source files of forked ArangoDB documentation as
-published on [arango.qubitpi.org](https://arango.qubitpi.org/).
+This repository is the knowledge hub of Paion Data dev team as well as the source files of forked ArangoDB documentation
+as published on [arango.paion-data.dev](https://arango.paion-data.dev/).
 
 The ArangoDB documentation is licensed under Apache-2.0.
 See [LICENSE](LICENSE) for details.
@@ -527,7 +527,7 @@ The following shortcodes also exist but are rarely used:
 
 - Use relative links for cross-references to other documentation pages, e.g.
   `../drivers/js/_index.md` instead of `/3.12/drivers/js/_index.md` or
-  `https://arango.qubitpi.org/3.12/drivers/js/`.
+  `https://docs.arangodb.com/3.12/drivers/js/`.
 
 - Avoid **bold** and *italic* markup in headlines. If you have to use it, then
   prefer `**bold**` and `*italic*`  over `__bold__` and `_italic_` because the
@@ -760,7 +760,7 @@ Start off by finding a file name. It should be:
 Note that the file name is independent of what will show in the navigation or
 what will be used as headline for that page. The file name will be used as
 part of the final URL, however. For example, `3.12/aql/examples.md` will become
-`http://arango.qubitpi.org/3.12/aql/examples/`.
+`http://arango.paion-data.dev/3.12/aql/examples/`.
 
 Create a new file with the file name and a `.md` file extension. Open the file
 in a text editor (Visual Studio Code is recommended). Add the following
@@ -1235,7 +1235,7 @@ db._document("collection/does_not_exist"); // xpError(ERROR_ARANGO_DOCUMENT_NOT_
 ```
 
 This will make the example generation continue despite the error. See
-[Error codes and meanings](https://arango.qubitpi.org/3.12/develop/error-codes-and-meanings/)
+[Error codes and meanings](https://arango.paion-data.dev/3.12/develop/error-codes-and-meanings/)
 for a list of all error codes and their names. If a unexpected error is raised,
 then the example generation will abort with an error.
 
