@@ -55,4 +55,4 @@ jobs:
           enable_jekyll: false
           user_name: ${{ env.USER }}
           user_email: ${{ env.EMAIL }}
-          cname: arango.qubitpi.org
+          cname: arango.paion-data.dev
